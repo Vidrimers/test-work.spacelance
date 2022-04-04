@@ -1,0 +1,141 @@
+.footer {
+  margin-bottom: 5.6rem;
+
+  &__inner {
+    padding: 13.3rem 0 2.8rem;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13rem;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 9.8rem;
+  }
+
+  &__item {
+    &:first-child {
+      width: 31.5rem;
+    }
+
+    &:nth-child(2) {
+      width: 15.2rem;
+    }
+
+    &:nth-child(3) {
+      width: 18.4rem;
+    }
+
+    &:nth-child(4) {
+      width: 24.2rem;
+    }
+  }
+
+  &__logo {
+    width: 100%;
+    margin-bottom: 0.1rem;
+
+    &-link {
+      // display: block;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: $color1;
+    margin-bottom: 2rem;
+  }
+
+  &__social {
+
+    &-link {
+
+      &+& {
+        margin-left: 2.7rem;
+      }
+    }
+
+    &-img {}
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 4rem;
+    color: $color1;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: $color1;
+  }
+
+  &__list {
+
+    &-link {
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 2.7rem;
+      color: $color1;
+    }
+
+    &-map,
+    &-tel,
+    &-email {
+      padding-left: 3.7rem;
+      position: relative;
+    }
+
+    &-map {
+
+      &::before {
+        content: "";
+        background: url('../../assets/img/ico/footer-map.svg');
+        position: absolute;
+        left: 0;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
+
+    &-tel {
+
+      &::before {
+        content: "";
+        background: url('../../assets/img/ico/footer-phone.svg');
+        position: absolute;
+        left: 0;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
+
+    &-email {
+
+      &::before {
+        content: "";
+        background: url('../../assets/img/ico/footer-email.svg');
+        position: absolute;
+        left: 0;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
+  }
+
+  &__contacts {}
+
+  &__rights {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: $color3;
+  }
+}

@@ -1,0 +1,59 @@
+.header {
+  padding-top: 5rem;
+  margin-bottom: 12rem;
+
+  &__logo {
+    width: 23.8rem;
+  }
+
+  &__inner {
+    background: white;
+    padding: 1.5rem 2.5rem 1.5rem 2rem;
+    border-radius: 5rem;
+    @include flex($sb);
+    align-items: center;
+  }
+
+  &__btn {
+    color: #fff;
+    margin-left: 6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 11px 43px;
+    border-radius: 5rem;
+  }
+}
+
+.menu {
+  margin-left: auto;
+
+  &__btn {
+    display: none;
+  }
+
+  &__list {
+    @include flex($sb);
+
+    &-link {
+      font-size: 2rem;
+      color: rgba(37, 37, 37, .7);
+      font-weight: 400;
+      line-height: 3rem;
+      // opacity: 0.7;
+      transition: color .3s;
+
+      &:hover {
+        color: $color2;
+        // opacity: 1;
+      }
+    }
+  }
+
+  &__item {
+
+    &+& {
+      margin-left: 3.5rem;
+    }
+  }
+}

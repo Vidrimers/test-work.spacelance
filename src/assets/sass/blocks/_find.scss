@@ -1,0 +1,73 @@
+.find {
+  margin-bottom: 17.6rem;
+  
+  &__inner {
+    padding-bottom: 8.5rem;
+    background: url('../../assets/img/find-bg-2.png') no-repeat;
+    background-position: left;
+    background-size: 61.6rem;
+    // background-size: 100% 100%;
+    display: flex;
+    position: relative;
+  }
+
+  &__top,
+  &__center {
+    background: #FFFFFF;
+    box-shadow: 0 .1rem .6rem rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2.7rem 1.6rem;
+  }
+
+  &__top {
+    position: absolute;
+    top: 2.4rem;
+    left: 29.8rem;
+  }
+
+  &__number {
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: $color2;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: $color3;
+  }
+
+  &__center {
+    position: absolute;
+    top: 20rem;
+    left: 36.9rem;
+  }
+
+  &__info {
+    max-width: 51.6rem;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 5.6rem;
+    line-height: 8.4rem;
+    color: $color1;
+    margin-bottom: 2rem;
+
+    span {
+      color: $color2;
+    }
+  }
+
+  &__info-text {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: $color3;
+  }
+}

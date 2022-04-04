@@ -1,0 +1,38 @@
+@mixin mq($point) {
+    @if $point==_1170 {
+        @media (max-width: 1170px) {
+            @content;
+        }
+    }
+
+    @else if $point==_992 {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+
+    @else if $point==_768 {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $point==_576 {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }
+
+    @else if $point==_480 {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+
+    @else if $point==_320 {
+        @media (max-width: 320px) {
+            @content;
+        }
+    }
+
+}

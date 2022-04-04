@@ -1,0 +1,48 @@
+.tutorial {
+  margin-bottom: 17.6rem;
+
+  &__items {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    padding: 4.1rem 5.3rem;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  &__img {
+    
+    &-wrapper {
+    margin: 0 auto;
+
+      border-radius: 50%;
+      padding: 2.5rem;
+      margin-bottom: 6rem;
+      background: #F2FAFA;
+      width: 11rem;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+font-size: 3rem;
+line-height: 4.5rem;
+color: $color1;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.6rem;
+color: $color3;
+  }
+
+
+}

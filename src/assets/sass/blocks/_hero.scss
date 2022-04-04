@@ -1,0 +1,85 @@
+.hero {
+
+  &__inner {
+    padding-bottom: 17.2rem;
+    background: url('../../assets/img/hero-bg.png') no-repeat;
+    background-position: 100% -99px;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__top {
+    max-width: 63.4rem;
+    margin-bottom: 8.4rem;
+    text-align: left;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 9.8rem;
+    color: $color1;
+    margin-bottom: 1.7rem;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: rgba(37, 37, 37, .6);
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+  }
+
+  &__link {
+    padding: 2rem 2.4rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  &__form {
+    position: relative;
+    width: 42rem;
+    text-align: left;
+
+
+    &-input {
+      background: #FFFFFF;
+      box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.05);
+      padding: 2.3rem 7rem 2.3rem 2.5rem;
+      width: 100%;
+      height: 7.6rem;
+      border-radius: 1rem;
+
+      &::placeholder {
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: $color3;
+        max-width: 40rem;
+      }
+    }
+
+    &-btn {
+      position: absolute;
+      right: 1rem;
+      top: 1.3rem;
+      background: $color2;
+      border-radius: 50%;
+      padding: 1.4rem;
+      width: 5rem;
+      height: 5rem;
+    }
+
+  }
+
+
+}

@@ -1,0 +1,29 @@
+body {
+  background: $bg url('../../assets/img/hero-bg-wrapper.png') no-repeat;
+  // background-repeat: ;
+  // background-color: ;
+  background-size: 100% 100%;
+  height: auto;
+  background-position: top center;
+  @include ff1;
+  @include font($f16, $lh22, 400, $color1);
+}
+
+.page {
+  position: relative;
+}
+
+.btn{
+  color: #fff;
+  background: $color2;
+}
+
+a {
+  color: $color1;
+}
+
+.container {
+  max-width: 128rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
